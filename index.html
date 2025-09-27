@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page: Café Artesanal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--
+        EJERCICIO 1: LANDING PAGE DE PRODUCTO (CAFÉ ARTESANAL)
+
+        Objetivo:
+        Crear una landing page sencilla y atractiva para un producto de café artesanal, aplicando los conocimientos básicos de HTML semántico y CSS.
+
+        Instrucciones HTML:
+        1.  Estructura Semántica:
+            - Utiliza un `<header>` para la sección superior de la página.
+            - Utiliza un `<main>` para el contenido principal.
+            - Divide el `<main>` en al menos dos `<section>`: una para la introducción del producto y otra para testimonios.
+            - Utiliza un `<footer>` para la información de contacto o derechos de autor.
+
+        2.  Contenido del Header:
+            - Incluye un logo (puedes usar un texto simple como "Café El Grano de Oro") dentro de un `<h1>`.
+            - Añade una barra de navegación simple (`<nav>`) con enlaces ficticios (Inicio, Productos, Contacto).
+
+        3.  Contenido de la Sección de Introducción (dentro de `<main>`):
+            - Un título (`<h2>`) para el producto, por ejemplo, "Descubre Nuestro Café Artesanal".
+            - Un párrafo (`<p>`) con una breve descripción del café.
+            - Una imagen del producto (`<img>`). Puedes usar una imagen de placeholder o buscar una en línea.
+            - Un botón de llamada a la acción (`<button>` o `<a>` con estilos de botón) que diga "Comprar Ahora".
+
+        4.  Contenido de la Sección de Testimonios (dentro de `<main>`):
+            - Un título (`<h2>`) para la sección, por ejemplo, "Lo que dicen nuestros clientes".
+            - Al menos dos testimonios (`<p>`) de clientes ficticios, cada uno dentro de un `<div>` o `<article>` para agruparlos.
+
+        5.  Contenido del Footer:
+            - Información de derechos de autor (`<p>`), por ejemplo, "© 2025 Café El Grano de Oro. Todos los derechos reservados.".
+            - Enlaces a redes sociales (puedes usar texto simple por ahora).
+
+        Instrucciones CSS (en style.css):
+        1.  Estilos Generales:
+            - Define una fuente global (`font-family`) y un color de texto base para `body`.
+            - Establece `margin: 0; padding: 0; box-sizing: border-box;` para un reseteo básico.
+
+        2.  Header:
+            - Dale un `background-color` y `color` al texto.
+            - Utiliza `display: flex; justify-content: space-between; align-items: center;` para alinear el logo y la navegación.
+            - Añade `padding`.
+
+        3.  Navegación (`nav`):
+            - Estiliza los enlaces (`<a>`) para que no tengan subrayado y tengan un color específico.
+            - Añade `margin` o `padding` entre los enlaces.
+
+        4.  Secciones (`section`):
+            - Añade `padding` vertical y horizontal.
+            - Centra el texto de los títulos (`<h2>`).
+            - La sección de introducción puede tener un `background-color` diferente.
+
+        5.  Imagen del Producto (`img`):
+            - Establece un `max-width` y `display: block; margin: 0 auto;` para centrarla.
+
+        6.  Botón de Llamada a la Acción (`button` o `a`):
+            - Dale un `background-color`, `color` de texto, `padding`, `border-radius`.
+            - Elimina el subrayado si es un `<a>`.
+            - Añade un efecto `:hover` (cambio de color de fondo).
+
+        7.  Testimonios:
+            - Estiliza los `div` o `article` de testimonios con `border`, `padding`, `margin-bottom`.
+            - Puedes usar `text-align: center;` para el texto del testimonio.
+
+        8.  Footer:
+            - Dale un `background-color` y `color` al texto.
+            - Centra el texto (`text-align: center;`).
+            - Añade `padding`.
+
+        Consideraciones Adicionales:
+        - Intenta usar variables CSS para colores si te sientes cómodo.
+        - Piensa en la responsividad básica: ¿cómo se vería en un móvil? (sin media queries por ahora, solo con `max-width` y `display: block; margin: 0 auto;`).
+    -->
+  <header>
+    <h1>Café El Grano de Oro</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Descubre Nuestro Café Artesanal</h2>
+      <p>Disfruta de la riqueza y el aroma de nuestro café seleccionado a mano, tostado a la perfección para tu paladar
+        exigente.</p>
+      <img src="https://via.placeholder.com/400x250?text=Caf%C3%A9+Artesanal" alt="Granos de café artesanal">
+      <button>Comprar Ahora</button>
+    </section>
+
+    <section class="testimonials">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="testimonial-item">
+        <p>"El mejor café que he probado. Su aroma y sabor son inigualables. ¡Totalmente recomendado!"</p>
+        <p>- Ana G.</p>
+      </div>
+      <div class="testimonial-item">
+        <p>"Me encanta la calidad y el compromiso con el comercio justo. ¡Mi café de cada mañana!"</p>
+        <p>- Carlos R.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Café El Grano de Oro. Todos los derechos reservados.</p>
+    <p>Síguenos en: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+  </footer>
+</body>
+
+</html>

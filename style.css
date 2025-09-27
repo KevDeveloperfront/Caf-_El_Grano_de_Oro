@@ -1,0 +1,156 @@
+/*
+    Instrucciones CSS para Ejercicio 1:
+
+    1.  Estilos Generales:
+        - Define una fuente global (`font-family`) y un color de texto base para `body`.
+        - Establece `margin: 0; padding: 0; box-sizing: border-box;` para un reseteo básico.
+
+    2.  Header:
+        - Dale un `background-color` y `color` al texto.
+        - Utiliza `display: flex; justify-content: space-between; align-items: center;` para alinear el logo y la navegación.
+        - Añade `padding`.
+
+    3.  Navegación (`nav`):
+        - Estiliza los enlaces (`<a>`) para que no tengan subrayado y tengan un color específico.
+        - Añade `margin` o `padding` entre los enlaces.
+
+    4.  Secciones (`section`):
+        - Añade `padding` vertical y horizontal.
+        - Centra el texto de los títulos (`<h2>`).
+        - La sección de introducción puede tener un `background-color` diferente.
+
+    5.  Imagen del Producto (`img`):
+        - Establece un `max-width` y `display: block; margin: 0 auto;` para centrarla.
+
+    6.  Botón de Llamada a la Acción (`button` o `a`):
+        - Dale un `background-color`, `color` de texto, `padding`, `border-radius`.
+        - Elimina el subrayado si es un `<a>`.
+        - Añade un efecto `:hover` (cambio de color de fondo).
+
+    7.  Testimonios:
+        - Estiliza los `div` o `article` de testimonios con `border`, `padding`, `margin-bottom`.
+        - Puedes usar `text-align: center;` para el texto del testimonio.
+
+    8.  Footer:
+        - Dale un `background-color` y `color` al texto.
+        - Centra el texto (`text-align: center;`).
+        - Añade `padding`.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+}
+
+.hero img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 2em auto;
+    border-radius: 8px;
+}
+
+.hero button {
+    background-color: #FF5722;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #E64A19;
+}
+
+.testimonials {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #333;
+    margin-bottom: 2em;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin: 1em auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.testimonial-item p:first-child {
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.testimonial-item p:last-child {
+    font-weight: bold;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5em 2em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
