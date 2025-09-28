@@ -1,42 +1,4 @@
-/*
-    Instrucciones CSS para Ejercicio 1:
-
-    1.  Estilos Generales:
-        - Define una fuente global (`font-family`) y un color de texto base para `body`.
-        - Establece `margin: 0; padding: 0; box-sizing: border-box;` para un reseteo básico.
-
-    2.  Header:
-        - Dale un `background-color` y `color` al texto.
-        - Utiliza `display: flex; justify-content: space-between; align-items: center;` para alinear el logo y la navegación.
-        - Añade `padding`.
-
-    3.  Navegación (`nav`):
-        - Estiliza los enlaces (`<a>`) para que no tengan subrayado y tengan un color específico.
-        - Añade `margin` o `padding` entre los enlaces.
-
-    4.  Secciones (`section`):
-        - Añade `padding` vertical y horizontal.
-        - Centra el texto de los títulos (`<h2>`).
-        - La sección de introducción puede tener un `background-color` diferente.
-
-    5.  Imagen del Producto (`img`):
-        - Establece un `max-width` y `display: block; margin: 0 auto;` para centrarla.
-
-    6.  Botón de Llamada a la Acción (`button` o `a`):
-        - Dale un `background-color`, `color` de texto, `padding`, `border-radius`.
-        - Elimina el subrayado si es un `<a>`.
-        - Añade un efecto `:hover` (cambio de color de fondo).
-
-    7.  Testimonios:
-        - Estiliza los `div` o `article` de testimonios con `border`, `padding`, `margin-bottom`.
-        - Puedes usar `text-align: center;` para el texto del testimonio.
-
-    8.  Footer:
-        - Dale un `background-color` y `color` al texto.
-        - Centra el texto (`text-align: center;`).
-        - Añade `padding`.
-*/
-
+/* 
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -153,4 +115,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
+ */
